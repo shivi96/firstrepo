@@ -1,10 +1,11 @@
-import java.util.Scanner;
+import java.util.*;
 class grade
 {
 public static void main(String args[])
 {
-System.out.println("enter the no.");
-int num = new Scanner(System.in).nextInt();
+
+int num = new Random().nextInt(100) + 1;
+System.out.println("enter the no." + num);
 
  if(num>90){
 System.out.println("Grade A");
